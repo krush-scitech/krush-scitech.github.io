@@ -1,0 +1,44 @@
+html * {
+  color: #ffffff;
+  font-family: Avenir;
+  font-size: 16pt;
+}
+
+body {
+  background: linear-gradient(0deg, #4B1656 0%, #0C0C0C 100%);
+}
+
+#container_outer {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#container_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  max-width: 1000px;
+}
+
+#main_text {
+  white-space: pre-wrap;
+}
+
+#logo_krush {
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+#logo_linkedin {
+  width: 30px;
+}
+
+#footer {
+  border-top: solid 1px white;
+  padding-top: 10px;
+  font-size: 12pt;
+}
